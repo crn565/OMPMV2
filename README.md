@@ -3,6 +3,11 @@
 **Open Multi Power Meter V2**
 
 OMPM v2 is an open hardware and firmware instrument for electrical load monitoring. It combines an ESP32 controller with six PZEM004T v3.0 measurement modules, a color TFT display, physical navigation buttons, microSD logging, environmental sensing, and a web interface. The design supports a physically measured aggregate channel alongside five individual loads, or six individual channels with an aggregate calculated from their readings.
+### Local TFT interface
+
+The color TFT display and physical buttons provide access to the instrument’s local measurement and configuration menus.
+
+![OMPM v2 TFT screens and menus](https://github.com/crn565/OMPMV2/blob/main/pantallas_OMPMv2.png?raw=true)
 
 ## Repository contents
 
